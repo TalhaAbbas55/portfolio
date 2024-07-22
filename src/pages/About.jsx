@@ -6,6 +6,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "react-tooltip";
 
 const About = () => {
   return (
@@ -16,6 +18,11 @@ const About = () => {
           Talha Abbas
         </span>
       </h1>
+      <a data-tooltip-id="my-tooltip" data-tooltip-content="Hello world!">
+        ◕‿‿◕
+      </a>
+
+      <Tooltip id="my-tooltip" />
       <div className="mt-5 flex flex-col gap3 text-slate-500">
         <p>
           Software Engineer based in Pakistan specialized in technical education
@@ -27,17 +34,25 @@ const About = () => {
         <h3 className="subhead-text">My Skills</h3>
 
         <div className="mt-16 flex flex-wrap gap-12">
-          {skills.map((skill) => (
-            <div className="block-container w-20 h-20">
-              <div className="btn-back rounded-xl" />
-              <div className="btn-front rounded-xl flex justify-center items-center">
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className="w-1/2 h-1/2 object-contain"
-                />
+          {skills.map((skill, i) => (
+            <>
+              <div
+                key={i}
+                className="block-container w-20 h-20 cursor-pointer"
+                data-tooltip-id={`tooltip-${i}`}
+                data-tooltip-content={skill.name}
+              >
+                <div className="btn-back rounded-xl" />
+                <div className="btn-front rounded-xl flex justify-center items-center">
+                  <img
+                    src={skill.imageUrl}
+                    alt={skill.name}
+                    className="w-1/2 h-1/2 object-contain"
+                  />
+                </div>
               </div>
-            </div>
+              <Tooltip id={`tooltip-${i}`} />
+            </>
           ))}
         </div>
       </div>

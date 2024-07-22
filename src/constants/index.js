@@ -1,4 +1,12 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {
+  freelancer,
+  shopify,
+  starbucks,
+  tesla,
+  GCB,
+  Zweidevs,
+  Nayyar,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -24,6 +32,11 @@ import {
   tailwindcss,
   threads,
   typescript,
+  bootstrap,
+  jquery,
+  reactNative,
+  electron,
+  oop,
 } from "../assets/icons";
 
 export const skills = [
@@ -33,9 +46,19 @@ export const skills = [
     type: "Frontend",
   },
   {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
     imageUrl: express,
     name: "Express",
     type: "Backend",
+  },
+  {
+    imageUrl: jquery,
+    name: "jQuery",
+    type: "Frontend",
   },
   {
     imageUrl: git,
@@ -51,6 +74,12 @@ export const skills = [
     imageUrl: html,
     name: "HTML",
     type: "Frontend",
+  },
+
+  {
+    imageUrl: oop,
+    name: "OOP",
+    type: "Programming Paradigm",
   },
   {
     imageUrl: javascript,
@@ -68,6 +97,11 @@ export const skills = [
     type: "Animation",
   },
   {
+    imageUrl: reactNative,
+    name: "React Native",
+    type: "Frontend",
+  },
+  {
     imageUrl: mui,
     name: "Material-UI",
     type: "Frontend",
@@ -76,6 +110,11 @@ export const skills = [
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
+  },
+  {
+    imageUrl: electron,
+    name: "Electron.js",
+    type: "Desktop",
   },
   {
     imageUrl: nodejs,
@@ -111,55 +150,53 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Zweidevs",
+    icon: Zweidevs,
     iconBg: "#accbe1",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed several web projects, enhancing user experience and functionality.",
+      "Built mobile apps for Android and iOS using React Native, with a 25% faster launch time.",
+      "Created cross-platform desktop applications for Windows, Mac, and Linux.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Nayyar Technologies",
+    icon: Nayyar,
     iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2022 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Create many web applications with React and Redux",
+      "Use Node-Red to create backend APIs and front end Flows",
+      "Word with Node.js, Express and Mongo DB to create APIs",
+      "Use react to create a Wordpress like Website Editor",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    title: "Wordpress Developer",
+    company_name: "Gold Cost Binders",
+    icon: GCB,
+    iconBg: "#f7b323",
+    date: "Jan 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop multiple sites with Elementor Wordpress Plugin",
+      "code custom wordpress templates with PHP",
+      "Work in no-code environment with other developers",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Front End Developer",
+    company_name: "Freelancing",
+    icon: freelancer,
     iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked with international clients to develop and maintain web applications using React.js and other related technologies.",
+      "got clients from Fiverr and Freelancer.com and completed projects with excellent review",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "use react to create reusable components and templates",
     ],
   },
 ];
