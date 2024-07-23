@@ -63,7 +63,7 @@ const Home = () => {
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
-      <div className="absolute top-60 left-0 right-0 z-10 flex items-center justify-center gap-120">
+      <div className="absolute top-60 left-0 right-0 z-10 flex items-center justify-center gap-120 pointer-events-none">
         <h1 className="glassmorphism flex justify-center items-center gap-2 swipe-btn-c btn-swipe-left">
           <img src={leftArrow} className="w-4 h-4 object-contain" />
           Swipe Left
