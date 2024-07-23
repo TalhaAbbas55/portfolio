@@ -23,7 +23,7 @@ body:has(.card[data-color="green"]:hover) {
 
 @layer utilities {
   .max-container {
-    @apply max-w-5xl mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
+    @apply mx-auto sm:p-16 pb-12 !pt-[126px] px-8 min-h-[calc(100vh-80px)];
   }
 
   .head-text {
@@ -98,6 +98,10 @@ body:has(.card[data-color="green"]:hover) {
   position: relative;
   transition: 250ms;
   perspective: 500px;
+}
+
+.gap-180 {
+  gap: 180px;
 }
 
 .block-container .btn-back {
@@ -180,4 +184,47 @@ body:has(.card[data-color="green"]:hover) {
   border: #fff;
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+}
+
+/* Add this CSS */
+@keyframes swipeLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes swipeRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.btn-swipe-left {
+  animation: swipeLeft 1.3s ease-in-out infinite;
+}
+
+.btn-swipe-right {
+  animation: swipeRight 1.3s ease-in-out infinite;
+}
+
+.swipe-btn-c {
+  color: white;
+  padding: 5px;
+  display: flex;
+}
+
+.arrowRight {
+  transform: rotate(180deg);
 }

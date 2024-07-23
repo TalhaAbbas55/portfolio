@@ -18,9 +18,6 @@ const About = () => {
           Talha Abbas
         </span>
       </h1>
-      <a data-tooltip-id="my-tooltip" data-tooltip-content="Hello world!">
-        ◕‿‿◕
-      </a>
 
       <Tooltip id="my-tooltip" />
       <div className="mt-5 flex flex-col gap3 text-slate-500">

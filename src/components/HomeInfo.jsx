@@ -40,6 +40,27 @@ const renderContent = {
       btnText={"Let's Talk"}
     />
   ),
+  5: (
+    <h1 className="sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5 neo-brutalism-blue ">
+      Please go ahead a bit 👉,
+      <br />
+      My Experience lived along side the water well
+    </h1>
+  ),
+  6: (
+    <h1 className="sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5 neo-brutalism-blue ">
+      Just a little distance away 👉,
+      <br />
+      Foxes have saved my Portfolio with their magic
+    </h1>
+  ),
+  7: (
+    <h1 className="sm:text-xl sm:leading-snug text-center py-4 px-8 text-white mx-5 neo-brutalism-blue ">
+      Few Steps ahead 👉, Let's connect
+      <br />
+      with each other along with healthy vegetables
+    </h1>
+  ),
 };
 
 const HomeInfo = ({ currentStage }) => {
