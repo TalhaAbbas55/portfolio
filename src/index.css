@@ -190,24 +190,30 @@ body:has(.card[data-color="green"]:hover) {
 @keyframes swipeLeft {
   0% {
     transform: translateX(0);
+    opacity: 0;
   }
   50% {
     transform: translateX(-10px);
+    opacity: 1;
   }
   100% {
     transform: translateX(0);
+    opacity: 0;
   }
 }
 
 @keyframes swipeRight {
   0% {
     transform: translateX(0);
+    opacity: 0;
   }
   50% {
     transform: translateX(10px);
+    opacity: 1;
   }
   100% {
     transform: translateX(0);
+    opacity: 0;
   }
 }
 

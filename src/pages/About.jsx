@@ -8,6 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -118,6 +119,7 @@ const About = () => {
 
       <hr className="border-slate-500" />
       <CTA />
+      <Footer />
     </section>
   );
 };

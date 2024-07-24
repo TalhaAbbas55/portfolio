@@ -203,19 +203,14 @@ export const experiences = [
 
 export const socialLinks = [
   {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
-  },
-  {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/TalhaAbbas55",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/talha-abbas-developer/",
   },
 ];
 
@@ -223,49 +218,49 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "bChat File Share",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Developed a web and mobile app with nextcloud technology with comprehensive chat and file sharing capabilities along with file manager and editor.",
+    link: "https://nextcloud.com/",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Neverleft for Venues",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Created a advance event management web app to streamline operations with QR code digital hangers.",
+    link: "https://www.neverleft.co.uk/",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Enticare Joy",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Create a web app for Medical Clinics with an advanced form inputs to get complete information of patient online with email before operations or checkup",
+    link: "https://online-form.enticare.com/",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Aab Books",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Developed Mobile, Web, and Desktop book reader application with enriched reader features like highlights, bookmarks and notes along powerful search and advance search module allow user to search 24+ books at a time ",
+    link: "https://develop.d24gns4hun6fgh.amplifyapp.com/",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Curl Compass",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Developed a mobile application which act as journal for females to track their hear health progress",
+    link: "https://crane-chinchilla-nszn.squarespace.com/",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Custom Websites Club",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Worked on Wordpress like website builder which allow user to create a website in 5 minutes with advanced AI integration and custom templates",
+    link: "https://www.customwebsites.club/",
   },
 ];

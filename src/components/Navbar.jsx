@@ -31,16 +31,6 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
-        <NavLink
-          to="/contact"
-          className={(val) => {
-            // console.log(val, "val");
-
-            return val.isActive ? "text-blue-500" : "text-black";
-          }}
-        >
-          Contact
-        </NavLink>
       </nav>
     </header>
   );
