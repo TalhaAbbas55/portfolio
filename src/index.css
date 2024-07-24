@@ -100,8 +100,8 @@ body:has(.card[data-color="green"]:hover) {
   perspective: 500px;
 }
 
-.gap-120 {
-  gap: 120px;
+.gap-80 {
+  gap: 80px;
 }
 
 .block-container .btn-back {
