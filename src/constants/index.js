@@ -37,6 +37,9 @@ import {
   reactNative,
   electron,
   oop,
+  facebook,
+  instagram,
+  twitter,
 } from "../assets/icons";
 
 export const skills = [
@@ -211,6 +214,21 @@ export const socialLinks = [
     name: "LinkedIn",
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/talha-abbas-developer/",
+  },
+  {
+    name: "Facebook",
+    iconUrl: facebook,
+    link: "https://www.facebook.com/talha.abbas.7583/",
+  },
+  {
+    name: "Instagram",
+    iconUrl: instagram,
+    link: "https://www.instagram.com/talha556989/",
+  },
+  {
+    name: "Twitter",
+    iconUrl: twitter,
+    link: "https://twitter.com/TalhaAb77561715",
   },
 ];
 

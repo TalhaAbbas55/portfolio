@@ -15,7 +15,7 @@ import sass from "./sass.svg";
 import tailwindcss from "./tailwindcss.svg";
 import typescript from "./typescript.svg";
 import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
+
 import car from "./car.svg";
 import estate from "./estate.svg";
 import pricewise from "./pricewise.svg";
@@ -32,6 +32,9 @@ import jquery from "./jquery-4.svg";
 import reactNative from "./react-native-1.svg";
 import electron from "./electron-1.svg";
 import oop from "./OOP.svg";
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import twitter from "./x-twitter.svg";
 
 export {
   css,
@@ -51,7 +54,6 @@ export {
   tailwindcss,
   typescript,
   linkedin,
-  twitter,
   car,
   estate,
   pricewise,
@@ -68,4 +70,7 @@ export {
   electron,
   oop,
   leftArrow,
+  facebook,
+  instagram,
+  twitter,
 };
