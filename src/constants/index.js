@@ -216,14 +216,6 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "bChat File Share",
-    description:
-      "Developed a web and mobile app with nextcloud technology with comprehensive chat and file sharing capabilities along with file manager and editor.",
-    link: "https://nextcloud.com/",
-  },
-  {
     iconUrl: threads,
     theme: "btn-back-green",
     name: "Neverleft for Venues",
@@ -262,5 +254,13 @@ export const projects = [
     description:
       "Worked on Wordpress like website builder which allow user to create a website in 5 minutes with advanced AI integration and custom templates",
     link: "https://www.customwebsites.club/",
+  },
+  {
+    iconUrl: pricewise,
+    theme: "btn-back-red",
+    name: "Smart Culinary Chef",
+    description:
+      " Developed a web app for a chef to manage his recipes and ingredients with a powerful search module to search recipes by ingredients",
+    link: "https://nextcloud.com/",
   },
 ];
