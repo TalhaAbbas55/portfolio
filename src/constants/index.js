@@ -263,7 +263,7 @@ export const projects = [
     name: "Curl Compass",
     description:
       "Developed a mobile application which act as journal for females to track their hear health progress",
-    link: "https://crane-chinchilla-nszn.squarespace.com/",
+    link: "https://apps.apple.com/pk/app/curl-compass/id6477861467",
   },
   {
     iconUrl: summiz,
@@ -276,9 +276,9 @@ export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Smart Culinary Chef",
+    name: "Practice Tool AI",
     description:
-      " Developed a web app for a chef to manage his recipes and ingredients with a powerful search module to search recipes by ingredients",
-    link: "https://nextcloud.com/",
+      "Developed a web app for English learners to practice listening, speaking and pronunciation with AI integration",
+    link: "https://practicetoolai.demystifyenglish.com/",
   },
 ];
